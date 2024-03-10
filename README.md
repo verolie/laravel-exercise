@@ -10,6 +10,10 @@ and to create a database use this command:
 ```
  docker run --name some-postgres -e POSTGRES_PASSWORD=mysecretpassword -d postgres
 ```
-you can see more detail here: https://hub.docker.com/_/postgres
+you can see more details here: https://hub.docker.com/_/postgres
 
 **Laravel Installation**
+to create a project, you can use the command prompt and locate the folder where you want to create then run the command below.
+```
+composer create-project laravel/laravel exercise-laravel
+```
