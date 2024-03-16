@@ -8,7 +8,7 @@ docker pull postgres
 ```
 and to create a database use this command:
 ```
- docker run --name some-postgres -e POSTGRES_PASSWORD=mysecretpassword -d postgres
+ docker run --name proj-laravel -p 3333:5432 -e POSTGRES_DB=projectLaravel -e POSTGRES_USER=admin -e POSTGRES_PASSWORD=pass123 -d postgres
 ```
 you can see more details here: https://hub.docker.com/_/postgres
 
